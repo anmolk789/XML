@@ -1,0 +1,48 @@
+<!--
+
+Generate Well-formed XML document
+
+
+Generate XML for the given scenario
+
+XYZ school wants to store the details of student and staff in a xml file. The following scenario helps in designing the XML document.
+persons will be the root tag. persons will have the entry of each person with name, age, gender, address. A person can be either a 
+student or staff. student will have rollno, standard and section. If staff, then staffid and subject. 
+Every person must have an address with the following entry- doorno,street,city and state.
+
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<persons>
+    <person>
+        <name>NAME</name>
+        <age>21</age>
+        <gender>M/F</gender>
+        <address>
+            <doorno>10</doorno>
+            <street>STREET</street>
+            <city>CITY</city>
+            <state>STATE</state>
+        </address>
+        <student>
+            <rollno>6</rollno>
+            <standard>9</standard>
+            <section>SECTION</section>
+        </student>
+    </person>
+    <person>
+        <name>NAME1</name>
+        <age>21</age>
+        <gender>M/F</gender>
+        <address>
+            <doorno>3</doorno>
+            <street>STREET</street>
+            <city>CITY</city>
+            <state>STATE</state>
+        </address>
+        <staff>
+            <staffid>69</staffid>
+            <subject>SUBJECT</subject>
+        </staff>
+    </person>
+</persons>
