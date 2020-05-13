@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<creditcard>
+    <card>
+        <cardnumber>2410</cardnumber>
+        <fname>Anmol</fname>
+        <lname>Kumar</lname>
+        <address>Delhi</address>
+        <limit>240000</limit>
+        <prereqid>XXX</prereqid>
+        <statement>
+            <stateid>000</stateid>
+            <statedate>2020-05-13</statedate>
+            <statecharge>
+                <cid>XXX</cid>
+                <camount>0.0</camount>
+                <cdate>2020-05-13</cdate>
+                <cbusiness>XXX</cbusiness>
+            </statecharge>
+        </statement>
+    </card>
+</creditcard>
