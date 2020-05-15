@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<company>
+    <companyname>XXX</companyname>
+    <address>XXX</address>
+    <department>
+        <dname>XXX</dname>
+        <deptphoneno>000</deptphoneno>
+        <deptfaxno>00</deptfaxno>
+        <deptemail>XXX.@XXX.XXX</deptemail>
+        <employee>
+            <empid>111</empid>
+            <ename>XXX</ename>
+            <emailid>XXX@XXX.XXX</emailid>
+            <phoneno>000</phoneno>
+        </employee>
+        <contractemployee>
+            <name>XXXX</name>
+            <phoneno>0000</phoneno>
+        </contractemployee>
+    </department>
+    <department>
+        <dname>XXX</dname>
+        <deptphoneno>000</deptphoneno>
+        <deptfaxno>000</deptfaxno>
+        <deptemail>XXX@XXX.XXX</deptemail>
+        <employee>
+            <empid>000</empid>
+            <ename>XXXX</ename>
+            <emailid>XXX@XXX.XXX</emailid>
+            <phoneno>000</phoneno>
+        </employee>
+    </department>
+</company>
